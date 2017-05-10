@@ -44,6 +44,6 @@ public class App {
 		}else {
 			System.out.println("index at: " + q);
 			return recursiveBinarySearch(arr, q  +1, r, x);
-		}
+		} 
 	}
 }
