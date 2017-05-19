@@ -43,6 +43,8 @@ public class MergeSort {
 			}
 		}
 		*/
+		
+		System.out.println("start: " + start);
 		int[] temp = new int[end - start + 1];
 		int leftSort = start;
 		int rightSort = mid + 1;
